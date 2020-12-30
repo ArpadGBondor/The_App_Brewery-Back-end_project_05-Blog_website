@@ -12,7 +12,7 @@ A back-end program, that can manage a blog website. The site can create, edit an
  - HTML5
  - CSS3
 
-#### My Blog-Website is deployed on [Heroku](https://gabriel-blog-website.herokuapp.com/) and [the maintenance is here](https://gabriel-blog-website.herokuapp.com/maintenance)
+#### My Blog-Website is deployed on [Heroku](https://gabriel-blog-website.herokuapp.com/) and [you can see the maintenance page here](https://gabriel-blog-website.herokuapp.com/maintenance)
 
 #### How to run: (from terminal)
  Clone the repository: 
