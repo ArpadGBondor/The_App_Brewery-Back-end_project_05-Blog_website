@@ -1,4 +1,4 @@
-# The App Brewery - Back-end project 05 - Blog website
+# [The App Brewery - Back-end project 05 - Blog website](https://gabriel-blog-website.herokuapp.com/)
 
 ## Udemy - The Complete 2020 Web Development Bootcamp
 
@@ -12,7 +12,7 @@ A back-end program, that can manage a blog website. The site can create, edit an
  - HTML5
  - CSS3
 
-#### This project is not deployed yet.
+#### My Blog-Website is deployed on [Heroku](https://gabriel-blog-website.herokuapp.com/) and [the maintenance is here](https://gabriel-blog-website.herokuapp.com/maintenance)
 
 #### How to run: (from terminal)
  Clone the repository: 
