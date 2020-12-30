@@ -296,7 +296,11 @@ app.post('/delete',function(req,res){
   });
 });
 
-app.listen(port, () => log('Server is running on http://localhost:' + port));
+app.listen(port, () => {
+  log('You can access the blog on http://localhost:' + port);
+  log('To create, edit, or delete posts, open http://localhost:' + port + '/maintenance');
+
+});
 
 /**
  * log - colorfull console.log() for "description: object" style logging
