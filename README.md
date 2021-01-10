@@ -28,7 +28,7 @@ A back-end program, that can manage a blog website. The site can create, edit an
  > https://www.mongodb.com/try/download/community
  
  Run program: 
- > nodemon app.js
+ > node app.js
  
  To see the blog:
  > Open: http://localhost:3000
