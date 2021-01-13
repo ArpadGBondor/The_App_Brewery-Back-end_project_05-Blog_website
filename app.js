@@ -1,8 +1,9 @@
 //jshint esversion:6
+require('dotenv').config();
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const ejs = require("ejs");
+/*const ejs = */require("ejs");
 const _ = require('lodash');
 const util = require('util');
 const consoleStamp = require('console-stamp');
@@ -18,7 +19,7 @@ consoleStamp(console, {
 });
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost/BlogDB', {
+mongoose.connect(process.env.DB_CONNECT, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
@@ -173,7 +174,7 @@ app.get('/maintenance',function(req,res){
 // Compose new posts
 app.get('/compose',function(req,res){
   // Check limit first. We don't want too much content in this demo project
-  checkPostLimit(res,(count)=>{
+  checkPostLimit(res,(/*count*/)=>{
     res.render('compose',{
       pageTitle: 'Compose',
       formAction: '/compose',
@@ -207,7 +208,7 @@ function checkPostLimit(res,callback){
 // Save new post to database
 app.post('/compose',function(req,res){
   // Check limit first. We don't want too much content in this demo project
-  checkPostLimit(res,(count)=>{
+  checkPostLimit(res,(/*count*/)=>{
     // Create new post
     let post =  new Post({
       title: req.body.postTitle.substring(0,50),
