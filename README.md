@@ -28,7 +28,7 @@ A back-end program, that can manage a blog website. The site can create, edit an
  > https://www.mongodb.com/try/download/community
 
  Create a file named '.env' and set this [enviroment variable](https://www.npmjs.com/package/dotenv):
- > DB_CONNECT=mongodb://localhost:27017/ToDoListDB
+ > DB_CONNECT=mongodb://localhost:27017/BlogDB
 
 Run program: 
  > node app.js
