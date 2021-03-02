@@ -1,6 +1,6 @@
 # [The App Brewery - Back-end project 05 - Blog website](https://gabriel-blog-website.herokuapp.com/)
 
-## Udemy - The Complete 2020 Web Development Bootcamp
+## Udemy - [Dr. Angela Yu - The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 
 ### Section 23: Boss Level Challenge 3 - Blog Website
 ### Section 30: Boss Level Challenge 4 - Blog Website Upgrade
